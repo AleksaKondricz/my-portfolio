@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },
+
       colors: {
         primary: {
           // Customize it on globals.css :root
@@ -23,7 +24,14 @@ module.exports = {
           800: 'rgb(var(--tw-color-primary-800) / <alpha-value>)',
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
         },
-        dark: '#222222',
+        dark: '#3A333B',
+        white: '#f8fafc',
+        gray: '#f1f5f9',
+    
+      },
+      boxShadow: {
+        'lg': '0 35px 60px -15px rgba(0, 0, 0, 0.5)',
+  
       },
       keyframes: {
         flicker: {
