@@ -45,6 +45,16 @@ module.exports = {
             filter: 'none',
           },
         },
+        wave: {
+          '0%': {transform: 'rotate(0deg)', transformOrigin: '75% 75%'},
+          '10%': {transform: 'rotate(14deg)', transformOrigin: '75% 75%'},
+          '20%': {transform: 'rotate(-8deg)', transformOrigin: '75% 75%'},
+          '30%': {transform: 'rotate(14deg)', transformOrigin: '75% 75%'},
+          '40%': {transform: 'rotate(-4deg)', transformOrigin: '75% 75%'},
+          '50%': {transform: 'rotate(10deg)', transformOrigin: '75% 75%'},
+          '60%': {transform: 'rotate(0deg)', transformOrigin: '75% 75%'},
+          '100%': {transform: 'rotate(0deg)', transformOrigin: '75% 75%'}
+        },
         shimmer: {
           '0%': {
             backgroundPosition: '-700px 0',
@@ -57,6 +67,7 @@ module.exports = {
       animation: {
         flicker: 'flicker 3s linear infinite',
         shimmer: 'shimmer 1.3s linear infinite',
+        wave: 'wave 2.5s infinite '
       },
     },
   },

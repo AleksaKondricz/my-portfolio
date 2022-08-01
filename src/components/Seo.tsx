@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Aleksa Kondricz|Portfolio',
-  siteName: 'Aleksa Kondricz|Portfolio',
+  title: 'Aleksa Kondricz',
+  siteName: 'Aleksa Kondricz',
   description:
     "This is my portfolio, as a way of getting to know me better. Looking forward to get to know you'll",
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */

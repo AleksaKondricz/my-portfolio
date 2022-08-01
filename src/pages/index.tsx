@@ -2,11 +2,10 @@ import * as React from 'react';
 import { useRef } from 'react';
 
 import Button from '@/components/buttons/Button';
-import TextInput from '@/components/inputs/Input';
 import Layout from '@/components/layout/Layout';
 import NextImage from '@/components/NextImage';
 import Seo from '@/components/Seo';
-import TextArea from '@/components/textarea/Textarea';
+import ContactForm from '@/containers/forms/contactForm';
 
 import klippProject from '~/images/klipp-project.png';
 import klippProjectOne from '~/images/klipp-project-1.png';
@@ -163,7 +162,8 @@ export default function HomePage() {
             You think we may have a future together? Cannot wait to hear from
             you. <br /> <em>Stay creative!</em>
           </p>
-          <div className='m-auto flex flex-col justify-between md:w-9/12 md:flex-row'>
+          <ContactForm />
+          {/*<div className='m-auto flex flex-col justify-between md:w-9/12 md:flex-row'>
             <TextInput placeholder='First Name' errorMsg='' disabled={false} />
             <TextInput placeholder='Last Name' errorMsg='' disabled={false} />
           </div>
@@ -174,7 +174,7 @@ export default function HomePage() {
             <Button variant='primary' className='w-fit py-4 px-12'>
               Submit
             </Button>
-          </div>
+  </div>*/}
         </section>
       </main>
     </Layout>

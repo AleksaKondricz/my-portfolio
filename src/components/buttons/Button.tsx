@@ -25,6 +25,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       disabled: buttonDisabled,
       isLoading,
       variant = 'primary',
+      type,
       isDarkBg = false,
       ...rest
     },
@@ -35,7 +36,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <button
         ref={ref}
-        type='button'
+        type={type}
         disabled={disabled}
         className={clsxm(
           'inline-flex items-center rounded px-4 py-2 font-medium',
@@ -67,13 +68,13 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
             ],
             variant === 'light' && [
               'bg-white text-dark ',
-              'border border-gray-300',
+              'border-gray-300 border',
               'hover:bg-gray-100 hover:text-dark',
-              'active:bg-white/80 disabled:bg-gray-200',
+              'disabled:bg-gray-200 active:bg-white/80',
             ],
             variant === 'dark' && [
               'bg-gray-900 text-white',
-              'border border-gray-600',
+              'border-gray-600 border',
               'hover:bg-gray-800 active:bg-gray-700 disabled:bg-gray-700',
             ],
           ],
