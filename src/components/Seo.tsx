@@ -7,15 +7,11 @@ const defaultMeta = {
   siteName: 'Aleksa Kondricz',
   description:
     "This is my portfolio, as a way of getting to know me better. Looking forward to get to know you'll",
-  /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+
+  url: 'https://aleksakondricz.dev',
   type: 'website',
   robots: 'follow, index',
-  /**
-   * No need to be filled, will be populated with openGraph function
-   * If you wish to use a normal image, just specify the path below
-   */
-  image: 'https://tsnext-tw.thcl.dev/images/large-og.png',
+  image: '~/images/large-og.png',
 };
 
 type SeoProps = {
