@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-import Avatar from '~/images/large-og.png';
-
 // !STARTERCONF Change these default meta
 const defaultMeta = {
   title: 'Aleksa Kondricz',
@@ -13,7 +11,7 @@ const defaultMeta = {
   url: 'https://aleksakondricz.dev',
   type: 'website',
   robots: 'follow, index',
-  image: Avatar,
+  image: '~/images/large-og.png',
 };
 
 type SeoProps = {
