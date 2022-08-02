@@ -18,7 +18,7 @@ export default function Header() {
           onClick={() => scrollToTop()}
           className='cursor-pointer text-4xl'
         />
-        <nav className='w-1/3'>
+        <nav className='hidden md:block md:w-1/3'>
           <ul className='flex items-center justify-between space-x-4'>
             {headerLinksData.map((l) => (
               <Link

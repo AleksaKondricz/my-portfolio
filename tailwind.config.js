@@ -9,7 +9,9 @@ module.exports = {
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },
-
+      minHeight:{
+        '11/12': '93.666667vh'
+      },
       colors: {
         primary: {
           // Customize it on globals.css :root

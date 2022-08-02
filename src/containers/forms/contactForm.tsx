@@ -27,7 +27,7 @@ export default function ContactForm() {
         <input
           type='hidden'
           name='_next'
-          value='https://localhost:3000/thanks'
+          value='https://aleksakondricz.vercel.app/thanks'
         ></input>
         <input type='hidden' name='_captcha' value='false'></input>
         <input

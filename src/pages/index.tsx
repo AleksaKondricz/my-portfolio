@@ -50,13 +50,15 @@ export default function HomePage() {
       <Seo />
 
       <main>
-        <section className='layout '>
-          <div className='flex h-full min-h-screen flex-col items-start justify-center text-start'>
-            <p className='mt-2 text-xl font-light text-dark'>Aleksa Kondricz</p>
-            <p className='mt-2 text-xl font-light text-dark opacity-70'>
+        <section className='layout  '>
+          <div className='mx-auto flex h-full min-h-11/12 w-11/12 flex-col items-start justify-center text-start md:min-h-screen md:w-full'>
+            <p className=' text-lg font-light text-dark md:mt-2 md:text-xl'>
+              Aleksa Kondricz
+            </p>
+            <p className='mt-2 text-lg font-light text-dark opacity-70 md:text-xl'>
               Frontend developer with UX/UI skills
             </p>
-            <h1 className='mt-4 w-5/6 text-5xl font-light'>
+            <h1 className=' my-8 w-5/6 text-3xl font-light leading-10 md:mt-4 md:text-5xl'>
               Hey there! I’m a frontend developer passionate about making the
               Web pleasent for everyone’s eyes. 👀
             </h1>
@@ -69,10 +71,13 @@ export default function HomePage() {
               {`Let's discuss future plans`}
             </Button>
           </div>
-          <h1 id='past' className='mb-10 w-5/6 text-5xl font-light'>
+          <h1
+            id='past'
+            className='mx-auto mb-10 w-11/12 text-3xl font-light md:w-5/6 md:text-5xl'
+          >
             The Past
           </h1>
-          <p className='mb-10 text-sm font-light text-dark'>
+          <p className='mx-auto mb-10 w-11/12 text-sm font-light text-dark md:w-full'>
             I and my husband who turns out to be an awesome full stack developer
             have been busy creating Klipp. I was in charge of the visuals of it
             and my husband was in charge of everything on the backend It’s an
@@ -87,7 +92,7 @@ export default function HomePage() {
             </a>{' '}
             and we’ll be happy to answer all of your questions.
           </p>
-          <div className='grid h-full w-full grid-cols-1 gap-4 sm:grid-cols-2 sm:grid-rows-2'>
+          <div className='m-auto grid h-full w-11/12 grid-cols-1 gap-4 sm:grid-cols-2 sm:grid-rows-2 md:w-full'>
             <NextImage
               useSkeleton
               className='max-w-1/2 h-auto cursor-pointer grayscale hover:grayscale-0'
@@ -117,10 +122,13 @@ export default function HomePage() {
               layout='responsive'
             />
           </div>
-          <h1 id='present' className='mt-20 mb-10 w-5/6 text-5xl font-light'>
+          <h1
+            id='present'
+            className='mx-auto mt-20 mb-10 w-11/12 text-3xl font-light md:w-5/6 md:text-5xl'
+          >
             The Present
           </h1>
-          <p className='mb-10 text-sm font-light text-dark'>
+          <p className='mx-auto mb-10 w-11/12 text-sm font-light text-dark md:w-full'>
             The present is full with lots of coding and designing UX/UIs. You
             see, I like developing what I design. I think that is really a perk,
             because I can keep things real and achieveble. Being a developer who
@@ -131,7 +139,7 @@ export default function HomePage() {
             Figma. I always find time to learn something new. At the moment I am
             learning Typescript and Unit testing.
           </p>
-          <div className='align-center grid max-h-96 w-full grid-cols-2 justify-center sm:flex '>
+          <div className='align-center m-auto grid max-h-96 w-1/2 grid-cols-2 justify-center sm:flex md:w-full '>
             <ReactLogo className='h-20 w-full animate-pulse p-2 grayscale hover:grayscale-0' />
             <NextLogo className='h-20 w-full animate-pulse p-2 grayscale delay-75 hover:grayscale-0' />
             <GatsbyLogo className='h-20 w-full animate-pulse p-2 grayscale delay-100 hover:grayscale-0' />
@@ -141,7 +149,7 @@ export default function HomePage() {
             <XDLogo className='h-20 w-full animate-pulse p-2 grayscale delay-300 hover:grayscale-0' />
             <FigmaLogo className='delay-350 h-20 w-full animate-pulse p-2 grayscale hover:grayscale-0' />
           </div>
-          <p className='mb-10 mt-10 text-center text-sm font-light text-dark'>
+          <p className='mx-auto mb-10 mt-10 w-11/12 text-center text-sm font-light text-dark md:w-full'>
             Above is the tech stack I am currently working with. On my wishlist
             of technologies I want to become fluent with are thw following one.
           </p>
@@ -154,27 +162,15 @@ export default function HomePage() {
           <h1
             id='future'
             ref={myRef}
-            className='mt-20 mb-10 w-5/6 text-5xl font-light'
+            className='mx-auto mt-20 mb-10 w-11/12 text-3xl font-light md:w-5/6 md:text-5xl'
           >
             The Future
           </h1>
-          <p className='mb-10 text-sm font-light text-dark'>
+          <p className='mx-auto mb-10 w-11/12 text-sm font-light text-dark md:w-full'>
             You think we may have a future together? Cannot wait to hear from
             you. <br /> <em>Stay creative!</em>
           </p>
           <ContactForm />
-          {/*<div className='m-auto flex flex-col justify-between md:w-9/12 md:flex-row'>
-            <TextInput placeholder='First Name' errorMsg='' disabled={false} />
-            <TextInput placeholder='Last Name' errorMsg='' disabled={false} />
-          </div>
-          <div className=' m-auto mt-4  flex  md:w-9/12'>
-            <TextArea placeholder='How can I help you?' />
-          </div>
-          <div className=' m-auto mt-4 mb-10  flex justify-center md:w-9/12'>
-            <Button variant='primary' className='w-fit py-4 px-12'>
-              Submit
-            </Button>
-  </div>*/}
         </section>
       </main>
     </Layout>
