@@ -73,7 +73,7 @@ export default function HomePage() {
           </div>
           <h1
             id='past'
-            className='mx-auto mb-10 w-11/12 text-3xl font-light md:w-5/6 md:text-5xl'
+            className='mx-auto mb-10 w-11/12 text-3xl font-light md:ml-0 md:w-5/6 md:text-5xl'
           >
             The Past
           </h1>
@@ -124,7 +124,7 @@ export default function HomePage() {
           </div>
           <h1
             id='present'
-            className='mx-auto mt-20 mb-10 w-11/12 text-3xl font-light md:w-5/6 md:text-5xl'
+            className='mx-auto mt-20 mb-10 w-11/12 text-3xl font-light md:ml-0 md:w-5/6  md:text-5xl'
           >
             The Present
           </h1>
@@ -140,29 +140,29 @@ export default function HomePage() {
             learning Typescript and Unit testing.
           </p>
           <div className='align-center m-auto grid max-h-96 w-1/2 grid-cols-2 justify-center sm:flex md:w-full '>
-            <ReactLogo className='h-20 w-full animate-pulse p-2 grayscale hover:grayscale-0' />
-            <NextLogo className='h-20 w-full animate-pulse p-2 grayscale delay-75 hover:grayscale-0' />
-            <GatsbyLogo className='h-20 w-full animate-pulse p-2 grayscale delay-100 hover:grayscale-0' />
-            <TailwindLogo className='h-20 w-full animate-pulse p-2 grayscale delay-150 hover:grayscale-0' />
-            <SassLogo className='h-16 w-full animate-pulse p-2 grayscale delay-200 hover:grayscale-0' />
-            <WebflowLogo className='delay-250 h-20 w-full animate-pulse p-2 grayscale hover:grayscale-0' />
-            <XDLogo className='h-20 w-full animate-pulse p-2 grayscale delay-300 hover:grayscale-0' />
-            <FigmaLogo className='delay-350 h-20 w-full animate-pulse p-2 grayscale hover:grayscale-0' />
+            <ReactLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse' />
+            <NextLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse md:delay-75' />
+            <GatsbyLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse md:delay-100' />
+            <TailwindLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse md:delay-150' />
+            <SassLogo className='h-16 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse md:delay-200' />
+            <WebflowLogo className='md:delay-250 h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse' />
+            <XDLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse md:delay-300' />
+            <FigmaLogo className='md:delay-350 h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse' />
           </div>
           <p className='mx-auto mb-10 mt-10 w-11/12 text-center text-sm font-light text-dark md:w-full'>
             Above is the tech stack I am currently working with. On my wishlist
             of technologies I want to become fluent with are thw following one.
           </p>
           <div className='align-center m-auto grid max-h-96 w-1/2 grid-cols-2 justify-center sm:flex '>
-            <TypescriptLogo className='h-20 w-full animate-pulse p-2 grayscale hover:grayscale-0' />
-            <JestLogo className='h-20 w-full animate-pulse p-2 grayscale delay-75 hover:grayscale-0' />
-            <ViteLogo className='h-20 w-full animate-pulse p-2 grayscale delay-100 hover:grayscale-0' />
-            <VueLogo className='h-20 w-full animate-pulse p-2 grayscale delay-150 hover:grayscale-0' />
+            <TypescriptLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse' />
+            <JestLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse md:delay-75' />
+            <ViteLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse md:delay-100' />
+            <VueLogo className='h-20 w-full p-2 grayscale hover:grayscale-0 md:animate-pulse md:delay-150' />
           </div>
           <h1
             id='future'
             ref={myRef}
-            className='mx-auto mt-20 mb-10 w-11/12 text-3xl font-light md:w-5/6 md:text-5xl'
+            className='mx-auto mt-20 mb-10 w-11/12 text-3xl font-light md:ml-0 md:w-5/6  md:text-5xl'
           >
             The Future
           </h1>
