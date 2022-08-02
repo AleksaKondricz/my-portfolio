@@ -10,13 +10,15 @@ export default function ThanksPage() {
         templateTitle='Thanks'
         description='Thanks for contacting me via filling my form'
       />
-      <div className='flex h-full min-h-screen flex-col items-center justify-center'>
-        <h1 className='mb-8 text-4xl'>
-          <span className='inline-block animate-wave'>👋</span> Thank you for
-          contacting me!
+      <div className='mx-auto flex h-full min-h-screen w-10/12 flex-col items-center justify-center md:w-full'>
+        <span className='mr-4 inline-block animate-wave text-6xl md:mr-8'>
+          👋
+        </span>
+        <h1 className='my-8 text-center text-3xl leading-10'>
+          Thank you for contacting me!
         </h1>
 
-        <p className='text-md mb-8 font-light text-dark opacity-70'>
+        <p className='text-md mb-8 text-center font-light text-dark opacity-70'>
           As Humphry Bogart once said: I think this is the beginning of a
           beautiful friendship.
         </p>
