@@ -11,7 +11,7 @@ const defaultMeta = {
   url: 'https://aleksakondricz.dev',
   type: 'website',
   robots: 'follow, index',
-  image: '~/images/large-og.png',
+  image: 'https://storage.googleapis.com/demo-k2/large-og.png',
 };
 
 type SeoProps = {
